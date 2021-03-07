@@ -1,38 +1,109 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-details {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-art {
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.App-art img {
+  width: 70%;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-title {
+  display: inline-block;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.App-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: #fff;
+  width: 200px;
+}
+
+.App-intro {
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.App-description {
+  margin-bottom: 2rem;
+  line-height: 1.77;
+  color: #ccc;
+}
+
+.App-subscribe {
+  background-color: #5c21a5;
+  padding: 1.5rem;
+  width: 85%;
+  border-radius: 3px;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+}
+
+.App-subscribe h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.App-form {
+  position: relative;
+}
+
+.App-form input {
+  font-family: inherit;
+  outline: none;
+  font-size: 90%;
+  padding: 10px 1rem;
+  border: none;
+  display: block;
+  border-radius: 2px;
+}
+
+.App-form .App-email {
+  width: 99%;
+  background-color: #ecf0f1;
+}
+
+.App-form .App-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(50, 24, 84);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color .22s ease;
+}
+
+.App-form .App-submit:hover {
+  background-color: rgb(70, 41, 109);
 }
