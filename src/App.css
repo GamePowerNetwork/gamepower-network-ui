@@ -101,6 +101,10 @@
   position: relative;
 }
 
+.App-form h2 {
+  color: rgb(191, 101, 0);
+}
+
 .App-form input {
   font-family: inherit;
   outline: none;

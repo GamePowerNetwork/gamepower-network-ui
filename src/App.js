@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import './App.css';
 
 function App() {
-
+  const [registered, setRegistered] = useState(false);
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     if (typeof email !== "undefined") {
 
       var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
@@ -15,19 +16,13 @@ function App() {
         return;
       }
 
-      fetch('http://gamepower.network:3000/email/', {
-          method: 'POST',
-          // We convert the React state to JSON and send it as the POST body
-          body: JSON.stringify({
-            email
-          })
-        }).then(function(response) {
-          if(response === true) {
-            alert("Thank You!");
-          }
-          return response.json();
-        });
-    
+      axios.post(`http://gamepower.network:3000/email/`, {email})
+      .then(res => {
+        if(res.data === true) {
+          setEmail("");
+          setRegistered(true);
+        }
+      })
     }
 
     event.preventDefault();
@@ -48,10 +43,20 @@ function App() {
         <div className="App-subscribe">
           <h3>Get Notified When Our Testnet Goes Live</h3>
           <div className="App-form">
-            <form onSubmit={handleSubmit}>
-              <input type="email" className="App-email" placeholder="Email Address..." onChange={(e) => setEmail(e.target.value)}></input>
+            {
+            registered 
+            ? <h2>Thank you for registering!</h2>
+            : <form onSubmit={handleSubmit}>
+              <input 
+                type="email" 
+                className="App-email" 
+                placeholder="Email Address..." 
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}>
+              </input>
               <input type="submit" className="App-submit" value="Get Notified"></input>
             </form>
+            }
           </div>
         </div>
       </section>
