@@ -4,13 +4,35 @@
   justify-content: space-between;
 }
 
+.App a {
+  color: rgb(191, 101, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.App a:hover {
+  color: rgb(204, 31, 0);
+}
+
 .App-details {
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
   padding: 0 4rem;
   align-items: flex-start;
+}
+
+.App-logo-container {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: center;
   justify-content: center;
+}
+
+.App-logo-container .App-logo {
+  width: 50%;
 }
 
 .App-art {
@@ -23,7 +45,7 @@
 
 .App-art img {
   width: 60%;
-  box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,.45);
 }
 
 .App-title {
@@ -31,6 +53,7 @@
   font-size: 40px;
   position: relative;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .App-title::after {
@@ -39,7 +62,7 @@
   bottom: 0;
   left: 0;
   height: 3px;
-  background-color: #fff;
+  background: linear-gradient(103deg, rgb(204, 31, 0) 0%, rgb(191, 101, 0) 100%);
   width: 200px;
 }
 
@@ -55,10 +78,11 @@
   margin-bottom: 2rem;
   line-height: 1.77;
   color: #ccc;
+  width: 85%;
 }
 
 .App-subscribe {
-  background-color: #5c21a5;
+  background-color: #773fbb;
   padding: 1.5rem;
   width: 85%;
   border-radius: 3px;
@@ -84,7 +108,7 @@
   padding: 10px 1rem;
   border: none;
   display: block;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .App-form .App-email {
@@ -96,12 +120,14 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: rgb(50, 24, 84);
+  background: linear-gradient(103deg, rgb(204, 31, 0) 0%, rgb(191, 101, 0) 100%);
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   transition: background-color .22s ease;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .App-form .App-submit:hover {
