@@ -39,17 +39,17 @@
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  align-items: center;
-  justify-content: center;
 }
 
 .App-logo-container .App-logo {
-  width: 50%;
+  width: 40%;
 }
 
 @media only screen and (max-width: 600px) {
   .App-logo-container {
     margin: 1rem;
+    align-items: center;
+    justify-content: center;
   }
 
   .App-logo-container .App-logo {
@@ -112,6 +112,8 @@
 .App-subscribe {
   background-color: #773fbb;
   padding: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   width: 85%;
   border-radius: 3px;
   box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
