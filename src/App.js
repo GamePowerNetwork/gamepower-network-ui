@@ -32,7 +32,7 @@ function App() {
           The GamePower website is currently under development
         </h3>
         <p className="App-description">
-          The GamePower testnet will be launching soon. Until then, follow <a href="https://www.twitter.com/GamePowerNet">@GamePowerNet</a> on Twitter for up-to-date information!
+        GamePower will be the first fully decentralized game publishing platform. We aim to become the Steam of the Polkadot ecosystem, bringing gamers & devs together! The GamePower testnet will be launching soon. Until then, follow <a href="https://www.twitter.com/GamePowerNet">@GamePowerNet</a> on Twitter for up-to-date information!
         </p>
         <div className="App-subscribe">
           <h3>Get Notified When Our Testnet Goes Live</h3>
