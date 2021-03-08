@@ -4,6 +4,12 @@
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 1000px) {
+  .App {
+    flex-direction: column;
+  }
+}
+
 .App a {
   color: rgb(191, 101, 0);
   font-weight: bold;
@@ -22,6 +28,12 @@
   align-items: flex-start;
 }
 
+@media only screen and (max-width: 1000px) {
+  .App-details {
+    padding: 0 2rem;
+  }
+}
+
 .App-logo-container {
   margin: 3rem;
   display: flex;
@@ -35,12 +47,28 @@
   width: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+  .App-logo-container {
+    margin: 1rem;
+  }
+
+  .App-logo-container .App-logo {
+    width: 100%;
+  }
+}
+
 .App-art {
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .App-art {
+    display: none;
+  }
 }
 
 .App-art img {
@@ -89,6 +117,13 @@
   box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
 }
 
+@media only screen and (max-width: 1000px) {
+  .App-subscribe {
+    width: 100%;
+  }
+}
+
+
 .App-subscribe h3 {
   font-weight: normal;
   text-transform: uppercase;
@@ -132,6 +167,14 @@
   transition: background-color .22s ease;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .App-form .App-submit {
+    position: relative;
+    margin-top: 10px;
+    width: 99%;
+  }
 }
 
 .App-form .App-submit:hover {
