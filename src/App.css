@@ -72,8 +72,15 @@
 }
 
 .App-art img {
-  width: 60%;
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 2em;
   box-shadow: 0 25px 50px -12px rgba(0,0,0,.45);
+}
+
+.App-art div {
+  width: 50%;
+  text-align: center;
 }
 
 .App-title {

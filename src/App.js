@@ -55,8 +55,15 @@ function App() {
         </div>
       </section>
       <section className="App-art">
-        <img src="./screenshot1.png" alt="GamePower App 1"></img>
-        <img src="./screenshot2.png" alt="GamePower App 2"></img>
+        <div>
+          <img src="./DeveloperBanner.jpg" alt="GamePower App 1"></img>
+          <p>Game development on the blockchain shouldn't be hard. GamePower aims to make development easy for game devs through our Unity and Javascript SDKs. Devs can now focus on creating engaging games and exciting NFTs for Web3! Leave the blockchain heavy lifting to us!</p>
+        </div>
+        
+        <div>
+          <img src="./GamerBanner.jpg" alt="GamePower App 2"></img>
+          <p>Gamers should own their games, digital assets and game data. GamePower will empower gamers to have full control over their digital gaming identity and assets. Utilizing Substrate and launching on the Polkadot network gives us the chance to bring Web3 to gaming!</p>
+        </div>
       </section>
     </div>
   );
