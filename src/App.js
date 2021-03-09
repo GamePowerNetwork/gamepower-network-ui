@@ -53,6 +53,11 @@ function App() {
             }
           </div>
         </div>
+        <h3 className="App-contact">Contact Us</h3>
+        <p className="App-description">
+          Feel free to reach out to us at <a href="mailto: dev@gamepower.network">dev@gamepower.network</a>
+        </p>
+
       </section>
       <section className="App-art">
         <div>

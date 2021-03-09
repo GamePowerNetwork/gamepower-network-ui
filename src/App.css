@@ -115,15 +115,16 @@
   }
 }
 
-.App-intro {
+.App-intro, .App-contact {
   font-size: 15px;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
-.App-description {
+.App-description, .App-contact-info {
   margin-bottom: 2rem;
   line-height: 1.77;
   color: #ccc;
