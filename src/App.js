@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <section className="App-details">
         <div className="App-logo-container">
-          <img className="App-logo" src="./logo.png"></img>
+          <img className="App-logo" src="./logo.svg"></img>
         </div>
         <h1 className="App-title">GamePower Coming Soon!</h1>
         <h3 className="App-intro">
