@@ -34,25 +34,7 @@ function App() {
         <p className="App-description">
         GamePower will be the first fully decentralized game publishing platform. We aim to become the Steam of the Polkadot ecosystem, bringing gamers & devs together! The GamePower testnet will be launching soon. Until then, follow <a href="https://www.twitter.com/GamePowerNet">@GamePowerNet</a> on Twitter for up-to-date information!
         </p>
-        <div className="App-subscribe">
-          <h3>Get Notified When Our Testnet Goes Live</h3>
-          <div className="App-form">
-            {
-            registered 
-            ? <h2>Thank you for registering!</h2>
-            : <form onSubmit={handleSubmit}>
-              <input 
-                type="email" 
-                className="App-email" 
-                placeholder="Email Address..." 
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}>
-              </input>
-              <input type="submit" className="App-submit" value="Get Notified"></input>
-            </form>
-            }
-          </div>
-        </div>
+
         <h3 className="App-contact">Contact Us</h3>
         <p className="App-description">
           Feel free to reach out to us at <a href="mailto: dev@gamepower.network">dev@gamepower.network</a>
