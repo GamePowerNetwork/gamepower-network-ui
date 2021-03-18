@@ -10,7 +10,7 @@ function App() {
     if (typeof email !== "undefined") {
 
 
-      axios.post(`http://gamepower.network:3000/email/`, {email})
+      axios.post(`https://gamepower.network:3000/email/`, {email})
       .then(res => {
         if(res.data === true) {
           setEmail("");
