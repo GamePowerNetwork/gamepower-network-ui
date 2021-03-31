@@ -4,24 +4,19 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
 
 body {
+  margin: 0;
   font-size: 1rem;
   line-height: 1.65;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, #0d0d0d 50%, rgb(41, 18, 71) 50%);
   color: #fff;
+  background-color: rgb(41, 18, 71);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media only screen and (max-width: 1000px) {
-  body {
-    background: #0d0d0d;
-  }
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 code {

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.parallax-wrapper {
+  width: 100vw;
+  min-height: 60vh;
+  box-sizing: border-box;
+  perspective: 1px;
+  padding-top: 20px;
+}
+.parallax-wrapper::before {
+  content:"";
+  width: 100vw;
+  height: 60vh;
+  top:0;
+  left:0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: absolute;
+}
+
+.regular-wrapper {
+  width: 100vw;
+  background-color: rgb(214, 214, 214);
+  z-index: 2;
+  position: relative;
+}
+
+.content {
+  margin: 0;
+  min-height: 100vh;
+  padding-top: 200px;
+  position: relative;
+}
+
+li, a, button {
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.woosh-top {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+
+
+.text {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  font-size: 10em;
+  color: white;
+  z-index: 15;
+  top: 320px;
+  width: 300px;
+}
+
+.logo-no-text {
+  position:absolute;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 179px;
+  height: 204px;
+  transform: translateY(0px);
+  z-index: 4;
+}
+
+.intro {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  font-size: 1.1em;
+  color: white;
+  z-index: 15;
+  top: 470px;
+  max-width: 90vw;
+}
+
+
+.directional-button {
+  position: absolute;
+  right: 15px;
+  top: -20px;
+  width: 200px;
+  height: 200px;
+  transform: rotate(24deg);
+  z-index: 5;
+}
+
+.weapon1 {
+  position: absolute;
+  left: 0;
+  top: -200px;
+  width: 200px;
+  height: 200px;
+  z-index: 5;
+}
+
+.coins1 {
+  position: absolute;
+  right: -60px;
+  bottom: 10px;
+  width: 300px;
+  height: 300px;
+  z-index: 8;
+}
+
+.coins2 {
+  position: absolute;
+  left: -30px;
+  bottom: 0px;
+  width: 200px;
+  height: 200px;
+  z-index: 20;
+}
+
+.gamer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100vw;
+  z-index: 10;
+}
+
+.content section {
+  width: 100vw;
+  position: relative;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.parallax-wrapper .content {
+  padding-top: 50px;
+}
+
+.parallax-wrapper .content section {
+  color: #edf0f1;
+  padding: 10px;
+}
+
+.content section h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3em;
+  color: rgba(41, 18, 71, 0.85);
+  text-align: center;
+}
+
+.parallax-wrapper .content section h2 {
+  color: #edf0f1;
+}
+
+.content section p {
+  font-size: 1em;
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+.why-gamepower {
+  width: 80%;
+}
+
+.publish {
+    width: 80%;
+}
+
+.nft {
+    width: 80%;
+}
+
+.controller {
+  width: 340px;
+}
+
+.rocket {
+    width: 80%;
+}
+
+.footer.content {
+    padding-top: 100px;
+}
+
+.footer section {
+  margin: 10px auto auto auto !important;
+}
+
+.footer .title {
+  font-size: 2em;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.footer .sub-title {
+  text-align: center;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+.footer-logo {
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 10em;
+  color: white;
+  z-index: 15;
+  width: 100vw;
+  opacity: 0.7;
+}
+
+.footer .social {
+  text-align: center;
+}
