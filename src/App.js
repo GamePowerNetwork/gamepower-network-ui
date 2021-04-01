@@ -86,7 +86,7 @@ function App() {
 
             <motion.section className="sectionEven" style={{opacity: section2slidein}}>
               <h2>Decentralized Publishing!</h2>
-              <p>A decentralized publishing platform allows game developers to cut the middle-man. Release games to an eager audience without forking over tons of your hard earned revenue. The GamePower network only retains 10% of sales which feeds back into the network for continued growth. Revenue from game sales and royalties are distributed in a trustless manner.</p>
+              <p>A decentralized publishing platform allows game developers to cut the middle-man. Release games to an eager audience without forking over tons of hard earned revenue. The GamePower network only retains 10% of sales which feeds back into the network for continued growth. Revenue from game sales and royalties are distributed in a trustless manner.</p>
               <motion.img  style={{y: section2imgY}} className="publish" src="./publish.svg"></motion.img>
             </motion.section>
 
