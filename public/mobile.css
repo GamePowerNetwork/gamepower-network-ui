@@ -39,7 +39,7 @@ li, a, button {
 
 .woosh-top {
   position: absolute;
-  top: 0px;
+  top: -2px;
   z-index: 2;
 }
 
@@ -89,10 +89,10 @@ li, a, button {
 
 .directional-button {
   position: absolute;
-  right: 15px;
+  right: 55px;
   top: -20px;
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
   transform: rotate(24deg);
   z-index: 5;
 }
@@ -133,7 +133,7 @@ li, a, button {
 }
 
 .content section {
-  width: 100vw;
+  width: 100%;
   position: relative;
   color: #000;
   display: flex;
@@ -164,7 +164,7 @@ li, a, button {
   font-size: 1em;
   margin-top: 20px;
   padding: 15px;
-  width: 100%;
+  width: 99%;
 }
 
 .why-gamepower {
@@ -215,7 +215,7 @@ li, a, button {
   font-size: 10em;
   color: white;
   z-index: 15;
-  width: 100vw;
+  width: 90vw;
   opacity: 0.7;
 }
 
