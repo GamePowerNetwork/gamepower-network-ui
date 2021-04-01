@@ -65,7 +65,7 @@ function App() {
             <motion.img style={{y: introY}} className="text" src="./logo-name.svg" alt="logo"></motion.img>
             <motion.img style={{y: introY}} className="logo-no-text" src="./logo-no-text.png"></motion.img>
 
-            <motion.span style={{y: introY}} className="intro">GamePower will be the first fully decentralized game publishing platorm. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</motion.span>
+            <motion.span style={{y: introY}} className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</motion.span>
 
             <img className="woosh-top" src="./woosh-top.svg"></img>
             <img className="woosh-bottom" src="./woosh-bottom.svg"></img>

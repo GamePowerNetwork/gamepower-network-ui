@@ -17,7 +17,7 @@ function MobileApp() {
             <img className="text" src="./logo-name.svg" alt="logo"></img>
             <img className="logo-no-text" src="./logo-no-text.png"></img>
 
-            <span className="intro">GamePower will be the first fully decentralized game publishing platorm. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</span>
+            <span className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</span>
           </div>
         </div>
         <div className="regular-wrapper">
