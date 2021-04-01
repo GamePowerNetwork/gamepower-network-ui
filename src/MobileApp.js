@@ -13,11 +13,11 @@ function MobileApp() {
         
         <div className="parallax-wrapper">
           
-          <div className="content">
-            <img className="text" src="./logo-name.svg" alt="logo"></img>
+          <div className="content" style={{textAlign: "center"}}>
             <img className="logo-no-text" src="./logo-no-text.png"></img>
+            <img className="text" src="./logo-name.svg" alt="logo"></img>
 
-            <span className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</span>
+            <p className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</p>
           </div>
         </div>
         <div className="regular-wrapper">
@@ -60,8 +60,8 @@ function MobileApp() {
           <div className="content footer">
             <a name="social"></a>
             <img className="woosh-top" src="./woosh-top.svg"></img>
-            <img className="gamer" src="./gamer.jpg"></img>
             <section>
+                <img className="gamer" src="./gamer.jpg"></img>
               <img className="footer-logo" src="./logo-name-dark.svg" alt="logo"></img>
               <p className="title">More to come soon!</p>
               <p className="sub-title">Follow us on Twitter for up-to-date news!</p>
