@@ -46,7 +46,7 @@ function MobileApp() {
           <div className="content">
             <section>
               <h2>Own It!</h2>
-              <p>Gone are the Pay-to-play days! Now gamers can earn money and collectibles just by playing games! Every collectible that you earn on the GamePower network will be uniquely yours and tradable across multiple blockchains. GamePower nor the developer can take it away. Sell, trade or even stake collectibles to earn more rewards!</p>
+              <p>Gone are the Pay-to-play days! Now gamers can earn money and collectibles just by playing games! Every collectible that you earn on the GamePower network will be uniquely yours and tradeable across multiple blockchains. GamePower nor the developer can take it away. Sell, trade or even stake collectibles to earn more rewards!</p>
             </section>
 
             <section>
