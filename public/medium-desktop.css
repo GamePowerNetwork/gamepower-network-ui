@@ -135,7 +135,7 @@ header {
 
 .logo-no-text {
   position:absolute;
-  top: 15%;
+  top: 20%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -380,20 +380,40 @@ button:hover {
 }
 
 .footer .coins1 {
-  display: none;
-}
-
-.footer .coins2 {
-  display: none;
-}
-
-.footer .coins3 {
-  display: none;
-}
-
-.footer .coins4 {
-  display: none;
-}
+    position: absolute;
+    left: 15%;
+    top: 10px;
+    width: 300px;
+    height: 300px;
+    z-index: 8;
+  }
+  
+  .footer .coins2 {
+    position: absolute;
+    left: 10%;
+    top: 120px;
+    width: 200px;
+    height: 200px;
+    z-index: 8;
+  }
+  
+  .footer .coins3 {
+    position: absolute;
+    right: 15%;
+    top: 10px;
+    width: 300px;
+    height: 300px;
+    z-index: 8;
+  }
+  
+  .footer .coins4 {
+    position: absolute;
+    right: 10%;
+    top: 120px;
+    width: 200px;
+    height: 200px;
+    z-index: 8;
+  }
 
 .footer .social {
   text-align: center;

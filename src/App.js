@@ -61,7 +61,7 @@ function App() {
           </div>
           <div className="video-overlay"></div>
           
-          <div className="content">
+          <div className="content intro-content" style={{minHeight: 1000}}>
             <motion.img style={{y: introY}} className="text" src="./logo-name.svg" alt="logo"></motion.img>
             <motion.img style={{y: introY}} className="logo-no-text" src="./logo-no-text.png"></motion.img>
 
