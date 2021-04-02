@@ -65,7 +65,7 @@ function App() {
             <motion.img style={{y: introY}} className="text" src="./logo-name.svg" alt="logo"></motion.img>
             <motion.img style={{y: introY}} className="logo-no-text" src="./logo-no-text.png"></motion.img>
 
-            <motion.span style={{y: introY}} className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</motion.span>
+            <motion.span style={{y: introY}} className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectibles with REAL WORLD value.</motion.span>
 
             <img className="woosh-top" src="./woosh-top.svg"></img>
             <img className="woosh-bottom" src="./woosh-bottom.svg"></img>
@@ -80,7 +80,7 @@ function App() {
             <motion.img style={{opacity: swordOpacity, y: swordY, rotate: 20}} className="weapon1" src="./weapon1.svg"></motion.img>
             <motion.section className="sectionOdd" style={{opacity: section1slidein}}>
               <h2>Why GamePower?</h2>
-              <p>As the gaming industry has moved to a more digital release platform, publishers have benefited greatly. However, developers and gamers have been given the short-end of the deal. Small developers, who mainly focused on digital only releases have been pushed out of the market, large developers have been forced to unfairly monetize their games just to keep publishers happy and players have had to deal with a gaming industry that has become non-consumer friendly.</p>
+              <p>As the gaming industry has moved to a more digital release platform, publishers have benefited greatly. However, developers and gamers have been given the short-end of the deal. Small developers who mainly focused on digital only releases have been pushed out of the market. Large developers have been forced to unfairly monetize their games just to keep publishers happy. Players have had to deal with a gaming industry that has become non-consumer friendly.</p>
               <motion.img style={{y: section1imgY}} className="why-gamepower" src="./why-gamepower.svg"></motion.img>
             </motion.section>
 
@@ -91,8 +91,8 @@ function App() {
             </motion.section>
 
             <motion.section className="sectionOdd section3" style={{opacity: section3slidein}}>
-              <h2>Game Collectables!</h2>
-              <p>Each game released on the GamePower platform is a NFT collectable! This means developers can release special limited editions of their games which will be more valuable for players. Players can also resell and trade these games. All trades and re-selling of games will pay the developer with a portion of the sale.</p>
+              <h2>Game Collectibles!</h2>
+              <p>Each game released on the GamePower platform is a NFT collectible! This means developers can release special limited editions of their games which will be more valuable for players. Players can also resell and trade these games. All trades and re-selling of games will pay the developer with a portion of the sale.</p>
               <motion.img  style={{y: section3imgY}} className="nft" src="./nft.svg"></motion.img>
             </motion.section>
 
@@ -105,14 +105,14 @@ function App() {
         <div className="parallax-wrapper">
           <div className="content">
             <motion.section className="sectionOdd" style={{opacity: section4slidein}}>
-              <h2>Own it!</h2>
-              <p>Gone are the Pay-to-play days! Now gamers can earn money and collectables just by playing games! Every collectable that you earn on the GamePower network will be uniquely yours and tradable across multiple blockchains. GamePower nor the developer can take it away. Sell, trade or even stake collectables to earn more rewards!</p>
+              <h2>Own It!</h2>
+              <p>Gone are the Pay-to-play days! Now gamers can earn money and collectibles just by playing games! Every collectible that you earn on the GamePower network will be uniquely yours and tradeable across multiple blockchains. GamePower nor the developer can take it away. Sell, trade or even stake collectibles to earn more rewards!</p>
               <motion.img  style={{y: section4imgY, rotate: 15}} className="controller" src="./controller.svg"></motion.img>
             </motion.section>
 
             <motion.section className="sectionEven" style={{opacity: section5slidein}}>
-              <h2>Sell it!</h2>
-              <p>Sell and trade your games or game assets on an open marketplace and across blockchains. Every time an asset is sold, not only will the seller earn money, but the developer will also earn a portion. Now gamers can support developers even while selling their assets.</p>
+              <h2>Sell It!</h2>
+              <p>Sell and trade your games or game assets on an open marketplace and across blockchains. Not only will the seller earn money every time an asset is sold, but the developer will also earn a portion of the sale. Gamers can now support developers even when selling their assets.</p>
               <motion.img  style={{y: section5imgY, rotate: 15}} className="rocket" src="./rocket.svg"></motion.img>
             </motion.section>
           </div>
