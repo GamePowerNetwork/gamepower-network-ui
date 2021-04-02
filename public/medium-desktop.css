@@ -210,23 +210,23 @@ button:hover {
 }
 
 .directional-button {
-  position: absolute;
-  right: 5px;
-  top: 10px;
-  width: 200px;
-  height: 200px;
-  transform: rotate(24deg);
-  z-index: 5;
-}
-
-.weapon1 {
-  position: absolute;
-  left: 0;
-  top: -200px;
-  width: 200px;
-  height: 200px;
-  z-index: 5;
-}
+    position: absolute;
+    right: 20%;
+    top: 10px;
+    width: 330px;
+    height: 330px;
+    transform: rotate(24deg);
+    z-index: 5;
+  }
+  
+  .weapon1 {
+    position: absolute;
+    left: 20%;
+    top: -400px;
+    width: 300px;
+    height: 300px;
+    z-index: 5;
+  }
 
 .coins1 {
   position: absolute;
@@ -260,10 +260,10 @@ button:hover {
 }
 
 .content section {
-  width: 1000px;
+  width: 1200px;
   height: 500px;
   margin: 40px auto;
-  padding: 20px 40px 40px 40px;
+  padding: 20px 20px 40px 20px;
   position: relative;
   color: #000;
 }
@@ -274,114 +274,114 @@ button:hover {
 }
 
 .parallax-wrapper .content section {
-  color: #edf0f1;
-}
-
-.content section h2 {
-  font-family: 'Press Start 2P', cursive;
-  color: rgba(41, 18, 71, 0.85);
-}
-
-.parallax-wrapper .content section h2 {
-  color: #edf0f1;
-}
-
-.content section p {
-  font-size: 1.2em;
-  margin-top: 20px;
-}
-
-.sectionOdd h2 {
-  text-align: left;
-}
-
-.sectionEven h2 {
-  text-align: right;
-}
-
-.sectionOdd p {
-  max-width: 500px;
-}
-
-.sectionEven p {
-  position: absolute;
-  right: 20px;
-  width: 500px;
-}
-
-.section3 {
-  min-height: 800px;
-}
-
-.why-gamepower {
-  width: 350px;
-  position: absolute;
-  right: 100px;
-  top: 20px;
-}
-
-.publish {
-  width: 400px;
-  position: absolute;
-  left: 10px;
-  top: 20px;
-}
-
-.nft {
-  width: 500px;
-  position: absolute;
-  right: 20px;
-  top: -60px;
-}
-
-.controller {
-  width: 340px;
-  position: absolute;
-  right: 30px;
-  top: 20px;
-}
-
-.rocket {
-  width: 400px;
-  position: absolute;
-  left: 30px;
-  top: 20px;
-}
-
-.footer section {
-  margin: 500px auto auto auto !important;
-}
-
-.footer .title {
-  font-size: 2em;
-  text-align: center;
-  opacity: 0.7;
-}
-
-.footer .sub-title {
-  text-align: center;
-  margin-bottom: 40px;
-  opacity: 0.7;
-}
-
-.footer-logo {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  left: 0;
-  right: 0;
-  font-size: 10em;
-  color: white;
-  z-index: 15;
-  top: -80px;
-  width: 700px;
-  opacity: 0.7;
-}
-
-.footer .coins1 {
+    color: #edf0f1;
+  }
+  
+  .content section h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgba(41, 18, 71, 0.85);
+  }
+  
+  .parallax-wrapper .content section h2 {
+    color: #edf0f1;
+  }
+  
+  .content section p {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  .sectionOdd h2 {
+    text-align: left;
+  }
+  
+  .sectionEven h2 {
+    text-align: right;
+  }
+  
+  .sectionOdd p {
+    max-width: 500px;
+  }
+  
+  .sectionEven p {
     position: absolute;
-    left: 15%;
+    right: 20px;
+    width: 600px;
+  }
+  
+  .section3 {
+    min-height: 800px;
+  }
+  
+  .why-gamepower {
+    width: 500px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .publish {
+    width: 500px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  
+  .nft {
+    width: 500px;
+    position: absolute;
+    right: 20px;
+    top: -60px;
+  }
+  
+  .controller {
+    width: 440px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .rocket {
+    width: 500px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  
+  .footer section {
+    margin: 500px auto auto auto !important;
+  }
+  
+  .footer .title {
+    font-size: 2em;
+    text-align: center;
+    opacity: 0.7;
+  }
+  
+  .footer .sub-title {
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: 0.7;
+  }
+  
+  .footer-logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 10em;
+    color: white;
+    z-index: 15;
+    top: -80px;
+    width: 700px;
+    opacity: 0.7;
+  }
+  
+  .footer .coins1 {
+    position: absolute;
+    left: 25%;
     top: 10px;
     width: 300px;
     height: 300px;
@@ -390,7 +390,7 @@ button:hover {
   
   .footer .coins2 {
     position: absolute;
-    left: 10%;
+    left: 20%;
     top: 120px;
     width: 200px;
     height: 200px;
@@ -399,7 +399,7 @@ button:hover {
   
   .footer .coins3 {
     position: absolute;
-    right: 15%;
+    right: 25%;
     top: 10px;
     width: 300px;
     height: 300px;
@@ -408,13 +408,13 @@ button:hover {
   
   .footer .coins4 {
     position: absolute;
-    right: 10%;
+    right: 20%;
     top: 120px;
     width: 200px;
     height: 200px;
     z-index: 8;
   }
-
-.footer .social {
-  text-align: center;
-}
+  
+  .footer .social {
+    text-align: center;
+  }
