@@ -17,7 +17,7 @@ function MobileApp() {
             <img className="logo-no-text" src="./logo-no-text.png"></img>
             <img className="text" src="./logo-name.svg" alt="logo"></img>
 
-            <p className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectables with REAL WORLD value.</p>
+            <p className="intro">GamePower will be the first fully decentralized game publishing platorm built on Substrate. Discover new games, freely trade your digital games and earn rare collectibles with REAL WORLD value.</p>
           </div>
         </div>
         <div className="regular-wrapper">
@@ -37,8 +37,8 @@ function MobileApp() {
             </section>
 
             <section>
-              <h2>Collectables!</h2>
-              <p>Each game released on the GamePower platform is a NFT collectable! This means developers can release special limited editions of their games which will be more valuable for players. Players can also resell and trade these games. All trades and re-selling of games will pay the developer with a portion of the sale.</p>
+              <h2>collectibles!</h2>
+              <p>Each game released on the GamePower platform is a NFT collectible! This means developers can release special limited editions of their games which will be more valuable for players. Players can also resell and trade these games. All trades and re-selling of games will pay the developer with a portion of the sale.</p>
               
             </section>
           </div>
@@ -47,7 +47,7 @@ function MobileApp() {
           <div className="content">
             <section>
               <h2>Own it!</h2>
-              <p>Gone are the Pay-to-play days! Now gamers can earn money and collectables just by playing games! Every collectable that you earn on the GamePower network will be uniquely yours and tradable across multiple blockchains. GamePower nor the developer can take it away. Sell, trade or even stake collectables to earn more rewards!</p>
+              <p>Gone are the Pay-to-play days! Now gamers can earn money and collectibles just by playing games! Every collectible that you earn on the GamePower network will be uniquely yours and tradable across multiple blockchains. GamePower nor the developer can take it away. Sell, trade or even stake collectibles to earn more rewards!</p>
             </section>
 
             <section>
