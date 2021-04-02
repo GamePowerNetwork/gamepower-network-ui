@@ -27,9 +27,13 @@
 
 .content {
   margin: 0;
-  min-height: 100vh;
   padding-top: 300px;
   position: relative;
+}
+
+.intro-content {
+   height: 100vh !important;
+   min-height: 1250px !important;
 }
 
 .saying {
