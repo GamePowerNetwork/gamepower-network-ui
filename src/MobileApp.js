@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 import IconButton from '@material-ui/core/IconButton';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 function MobileApp() {
   
@@ -63,11 +64,19 @@ function MobileApp() {
                 <img className="gamer" src="./gamer.jpg"></img>
               <img className="footer-logo" src="./logo-name-dark.svg" alt="logo"></img>
               <p className="title">More to come soon!</p>
-              <p className="sub-title">Follow us on Twitter for up-to-date news!</p>
+              <p className="sub-title">Follow us on social for up-to-date news!</p>
 
               <div className="social">
                 <IconButton onClick={() => { window.open('https://www.twitter.com/gamepowernet', "_blank") }}>
                   <TwitterIcon fontSize="large"/>
+                </IconButton>
+
+                <IconButton onClick={() => { window.open('https://discord.com/invite/em75apGJZV', "_blank") }}>
+                  <i class="fab fa-discord" style={{fontSize: 30}}></i>
+                </IconButton>
+
+                <IconButton onClick={() => { window.open('https://www.facebook.com/GamePowerNetwork', "_blank") }}>
+                  <FacebookIcon fontSize="large"/>
                 </IconButton>
               </div>
             </section>
