@@ -34,6 +34,8 @@ function App() {
   const section5imgY = useTransform(scrollY, [3100, 3400], [200, 0]);
 
   const gamerOpacity = useTransform(scrollY, [3700, 4000], [0, 1]);
+  const roadmapOpacity = useTransform(scrollY, [4500, 5000], [0, 1]);
+
   const footerCoinY = useTransform(scrollY, [3500, 4200], [0, 200]);
   const footerCoinOpacity = useTransform(scrollY, [3500, 4200], [0, 1]);
   const footerScale = useTransform(scrollY, [4200, 4500], [0, 1]);
@@ -50,6 +52,7 @@ function App() {
             <ul className="nav__links">
               <li><a href="#developers">Developers</a></li>
               <li><a href="#gamers">Gamers</a></li>
+              <li><a href="#roadmap">Roadmap</a></li>
               <li><a href="#social">Social</a></li>
             </ul>
           </nav>
@@ -119,8 +122,8 @@ function App() {
           </div>
         </div>
         <div className="regular-wrapper">
-          <div className="content footer">
-            <a name="social"></a>
+          <div className="content roadmap">
+            <a name="roadmap"></a>
             <img className="woosh-top" src="./woosh-top.svg"></img>
             <motion.img style={{opacity: footerCoinOpacity, y: footerCoinY}} className="coins1" src="./coins1.svg"></motion.img>
             <motion.img style={{opacity: footerCoinOpacity, y: footerCoinY}} className="coins2" src="./coins2.svg"></motion.img>
@@ -128,6 +131,13 @@ function App() {
             <motion.img style={{opacity: footerCoinOpacity, y: footerCoinY}} className="coins3" src="./coins1.svg"></motion.img>
             <motion.img style={{opacity: footerCoinOpacity, y: footerCoinY, scaleX: -1}} className="coins4" src="./coins2.svg"></motion.img>
             <motion.img  style={{opacity: gamerOpacity}} className="gamer" src="./gamer.jpg"></motion.img>
+
+            <section>
+              <motion.img style={{opacity: roadmapOpacity}} className="roadmap" src="./roadmap.png"></motion.img>
+            </section>
+          </div>
+          <div className="content footer">
+            <a name="social"></a>
             <section>
               <motion.img style={{scale: footerScale}} className="footer-logo" src="./logo-name-dark.svg" alt="logo"></motion.img>
               <p className="title">More to come soon!</p>

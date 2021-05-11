@@ -143,8 +143,12 @@ li, a, button {
     width: 80%;
 }
 
+.roadmap.content {
+  padding-top: 100px;
+}
+
 .footer.content {
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .footer section {
