@@ -34,7 +34,7 @@ function App() {
   const section5imgY = useTransform(scrollY, [3100, 3400], [200, 0]);
 
   const gamerOpacity = useTransform(scrollY, [3700, 4000], [0, 1]);
-  const roadmapOpacity = useTransform(scrollY, [4500, 5000], [0, 1]);
+  const roadmapOpacity = useTransform(scrollY, [4200, 4900], [0, 1]);
 
   const footerCoinY = useTransform(scrollY, [3500, 4200], [0, 200]);
   const footerCoinOpacity = useTransform(scrollY, [3500, 4200], [0, 1]);
