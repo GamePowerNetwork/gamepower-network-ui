@@ -57,18 +57,11 @@ function MobileApp() {
           </div>
         </div>
         <div className="regular-wrapper">
-        <div className="content roadmap">
-            <a name="roadmap"></a>
-            <img className="woosh-top" src="./woosh-top.svg"></img>
-
-            <section>
-              <img className="gamer" src="./gamer.jpg"></img>
-              <img className="roadmap" src="./roadmap.png"></img>
-            </section>
-          </div>
           <div className="content footer">
             <a name="social"></a>
+            <img className="woosh-top" src="./woosh-top.svg"></img>
             <section>
+                <img className="gamer" src="./gamer.jpg"></img>
               <img className="footer-logo" src="./logo-name-dark.svg" alt="logo"></img>
               <p className="title">More to come soon!</p>
               <p className="sub-title">Follow us on social for up-to-date news!</p>
